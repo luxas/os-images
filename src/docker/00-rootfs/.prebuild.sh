@@ -9,5 +9,5 @@ export ARTIFACTS=$(pwd)/assets
 rm -rf ./build
 mkdir -p ./build
 
-echo Extracting ${ARTIFACTS}/os-base.tar.xz
-tar xJf ${ARTIFACTS}/os-base.tar.xz -C ./build/
+echo Extracting os-base.tar.xz
+tar xJf os-base.tar.xz -C ./build/
