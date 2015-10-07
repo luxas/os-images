@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbians
+FROM resin/rpi-raspbian
 RUN apt-get update && \
     apt-get upgrade --no-install-recommends -y && \
     apt-get install -y --no-install-recommends iptables openssh-server rsync locales sudo vim less curl
